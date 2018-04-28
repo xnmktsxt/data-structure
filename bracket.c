@@ -109,7 +109,7 @@ void matching(char * brackets)
         }
         if(brackets[i] == ')')
         {
-            if(*(s.top-1) == ')')
+            if(*(s.top-1) == '(')
                 pop(&s);
             else
             {
