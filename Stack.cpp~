@@ -15,7 +15,7 @@ public:
     int stacksize;
 private:
     position base;
-    position top;
+    position top; 
 };
 
 template<typename elemType>
